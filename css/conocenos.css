@@ -1,0 +1,28 @@
+.equipo {
+}
+
+
+.equipo section {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.formacion {
+
+	width: 100%;
+	margin-left: 0px;
+	padding: 30px;
+}
+
+.conocenos {
+	width: 50%;
+	text-align: right;
+}
+
+#imagen {
+	width: 50%;
+	border-radius: 20px;
+}

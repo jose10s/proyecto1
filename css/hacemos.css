@@ -1,0 +1,28 @@
+
+
+.tratamientos {
+  display: table;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.tratamientos div{
+	display: inline-table;
+  text-align: left;
+	justify-content: center;
+	width: 100%;
+	align-content: center;
+}
+
+.tratamientos img {
+	border-radius: 30px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  padding: 20px;
+}
+
+.tratamientos p {
+	width: 100%;
+}

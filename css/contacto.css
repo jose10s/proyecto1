@@ -1,0 +1,52 @@
+div.formulario h3 {
+	text-align: center;
+	color: white;
+}
+
+.form {
+	width: 450px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	background: #2596be;
+}
+
+.form input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 15px;
+  font-family: sans-serif;
+}
+
+.form textarea {
+	max-height: 200px;
+	min-height: 100px;
+	max-width: 100%;
+}
+
+#enviar:hover {
+	cursor: pointer;
+}
+
+div.reserva-button {
+	width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.reserva-button button {
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #A3CDEC;
+}
+
+div.reserva-button a {
+	text-decoration: none;
+	font-size: 20px;
+	color:#333333;
+}

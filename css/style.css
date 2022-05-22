@@ -1,0 +1,221 @@
+body {
+	margin: 0;
+	padding: 20px 20px;
+	font-family: Arial;
+	color: #666;
+	background: #f2f2f2;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0;
+	padding: 20px;
+  background: #2596be;
+	border-radius: 20px;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.logo img{
+	width: 150px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.navigation ul li a:hover {
+  background: #ccc;
+}
+
+.body img{
+ 	width:500px;
+ 	height:300px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 20px;
+}
+
+footer {
+  background: #2596be;
+  color: white;
+  padding: 20px;
+  margin-top: 200px;
+	border-radius: 20px;
+}
+
+.container-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+table, td, th {
+  border: 1px solid black;
+}
+
+
+table {
+  width: 80%;
+	align: center;
+	margin: auto;
+}
+
+th {
+  height: 70px;
+  background-color: #2596be;
+  color: white;
+}
+
+tr:hover {
+	background-color: #A3ECE6;
+}
+
+th, td {
+	padding: 10px;
+}
+
+.body-tienda section {
+	width: 80%;
+	display: flex;
+	align-items: center;
+}
+
+.mensaje-gracias {
+	width: 100%;
+	margin-left: 300px;
+	padding: 10px;
+}
+
+.imagen-gracias {
+	width: calc(50%-20px);
+	padding: 10px;
+}
+
+.imagen-gracias img {
+	width: 50%;
+	border-radius: 10px;
+}
+
+.page-content form {
+	max-width: 200px;
+	width: calc(100%-40px)
+	padding: 20px;
+	border-radius: 10px;
+	margin: auto;
+}
+
+
+
+
+.pedidos {
+	width: 100%;
+}
+
+.item {
+	display: flex;
+	border: 1px #ccc solid;
+	margin-bottom: 5px;
+}
+
+.imagenpedido {
+	width: 400px;
+}
+
+.imagenpedido img {
+	width: 100%;
+	border-radius: 0;
+}
+
+.detallepedido {
+	padding: 10px;
+	width: calc(100%-220px);
+}
+
+.detallepedido h3 {
+
+
+}
+.detallepedido h4 {
+	margin: 5px 0;
+
+}
+
+
+
+.inputpedido {
+	width: 350px;
+	margin: 5px;
+}
+
+.page-content button {
+	background-color: #2596be;
+	border: 10px;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 30px;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.descripcion button {
+	background-color: #2596be;
+	border: 10px;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 30px;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#precioproducto {
+	color: red;
+}
+
+#botoncomprar {
+	text-decoration: none;
+	color: white;
+}
+
+#seguir {
+	text-decoration: none;
+	color: white;
+}
+
+.cita {
+	text-align: center;
+	margin: 50px;
+}
